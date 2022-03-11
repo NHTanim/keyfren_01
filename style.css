@@ -1,0 +1,80 @@
+.btn{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10%;
+    border: none;
+
+    /* @keyframes k paoanor jonno ___animation-name:test__deya hoyece */
+    animation-name: test;
+
+    /* __animation-duration:__ na dile kno animation cholbe na */
+    animation-duration: 5s;
+
+    /* __animation-iteration-count: infinite;__ animation ti koto khn cholbe ta diye deya hoy */
+    animation-iteration-count: infinite;
+}
+
+
+/* __@keyframes test __ cause __animation-name: test__*/
+@keyframes test{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: turquoise;
+    }
+}
+
+
+
+.btn2{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10%;
+    border: none;
+
+    /* __position: relative__ eta na dile left top kaj krbe na  relative mane sb relative er kace opre niche jabe */
+    position: relative;
+
+
+    /* @keyframes k paoanor jonno ___animation-name:test__deya hoyece */
+    animation-name: tanim;
+
+    /* __animation-duration:__ na dile kno animation cholbe na */
+    animation-duration: 15s;
+
+    /* __animation-iteration-count: infinite;__ animation ti koto khn cholbe ta diye deya hoy */
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes tanim{
+    0%{
+        background-color: teal;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: tomato;
+        left: 300px;
+        top: 0;
+    }
+    50%{
+        background-color: violet;
+        left: 300px;
+        top: 200px;
+    }
+    75%{
+        background-color: yellow;
+        left: 0;
+        top: 200px;
+    }
+    100%{
+        background-color: skyblue;
+        left: 0;
+        top: 0;
+    }
+}
